@@ -8,12 +8,14 @@
 	"license": "UNLICENSED",
 	"scripts": {
 		"start": "sanity start",
-		"build": "sanity build"
+		"test": "sanity check",
+		"build": "sanity build public -y"
 	},
 	"keywords": [
 		"sanity"
 	],
 	"dependencies": {
+		"@sanity/cli": "^1.149.13",
 		"@sanity/base": "^2.24.1",
 		"@sanity/core": "^2.24.0",
 		"@sanity/code-input": "^1.149.7",
