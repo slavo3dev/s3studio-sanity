@@ -133,6 +133,11 @@ export default createSchema({
           validation: Rule => {
             Rule.required();
           },
+          },
+        {
+          name: "category",
+          type: "text",
+          title: "Category",
         },
         {
           name: "author",
