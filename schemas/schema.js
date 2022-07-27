@@ -136,7 +136,7 @@ export default createSchema({
           },
         {
           name: "category",
-          type: "text",
+          type: "string",
           title: "Category",
         },
         {
